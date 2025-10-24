@@ -1,0 +1,23 @@
+{
+  "name": "namstereact",
+  "version": "1.0.0",
+  "description": "ignite app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suraj",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "Browserlist": [
+    "last 2 chrome version",
+    "last 2 firefox version",
+    "last 2 edge version"
+  ]
+}
