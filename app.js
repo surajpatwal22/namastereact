@@ -212,6 +212,45 @@ const Body = () => {
         </div>
     );
 };
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <div className="footer-container">
+                {/* --- Section 1: Logo --- */}
+                <div className="footer-section">
+                    <h2 className="footer-logo">Suraj</h2>
+                    <p className="footer-tagline">
+                        Building digital experiences that inspire and empower.
+                    </p>
+                </div>
+
+                {/* --- Section 2: Navigation Links --- */}
+                <div className="footer-section">
+                    <h3 className="footer-title">Quick Links</h3>
+                    <ul className="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                {/* --- Section 3: Contact Info --- */}
+                <div className="footer-section">
+                    <h3 className="footer-title">Contact</h3>
+                    <p>123 Web Street, Innovation City, India</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📧 suraj@example.com</p>
+                </div>
+            </div>
+
+            {/* Bottom Line */}
+            <div className="footer-bottom">
+                &copy; {new Date().getFullYear()} Suraj. All rights reserved.
+            </div>
+        </footer>
+    )
+}
 
 const AppLayout = () => {
     return (
@@ -219,8 +258,9 @@ const AppLayout = () => {
             <div className="container">
                 <Header />
                 <Body />
+                <Footer />
             </div>
-           
+
         </div>
     )
 }
