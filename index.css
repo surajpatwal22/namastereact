@@ -182,6 +182,9 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
+  .footerLogo{
+    height: 100px;
+  }
   
   .footer-tagline {
     font-size: 0.9rem;
