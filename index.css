@@ -12,6 +12,30 @@
     /* background-color: #f8f9fa; Light background for better visibility */
 }
 
+.restro-header{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-handle{
+  padding-top: 16px;
+
+}
+.top-rated-btn {
+    padding: 10px 10px;
+    margin: 0px 10px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #233d5a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.top-rated-btn:hover {
+    background-color: #0056b3;
+}
+
 .header .logo img {
     max-height: 100px; /* Increased logo size */
 }
@@ -243,4 +267,3 @@
       grid-template-columns: 1fr;
     }
   }
-  
